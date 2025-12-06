@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WorkHub — Find Jobs & Workers</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Work<span class="accent">Hub</span></a>
+      <nav class="main-nav">
+        <a href="jobs.html">Jobs</a>
+        <a href="workers.html">Workers</a>
+        <a href="post-job.html" class="btn btn-primary">Post Job</a>
+        <a href="login.html">Login</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button class="nav-toggle" aria-label="toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>WorkHub Space of Work !</h1>
+        <p class="lead">A clean marketplace for employers and workers. Safe and easy to use, guaranteed results, and hire quickly.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="jobs.html"><strong>Find a Job</strong> </a>
+          <a class="btn" href="post-job.html"><strong>Post a Job</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article class="feature">
+        <h3>For Employers</h3>
+        <p>Post jobs, shortlist workers, and manage applications in one place.</p>
+      </article>
+      <article class="feature">
+        <h3>For Workers</h3>
+        <p>Create a profile, apply to jobs, and showcase your skills.</p>
+      </article>
+      <article class="feature">
+        <h3>Safe & Transparent</h3>
+        <p>Ratings, verified profiles, and built-in messaging keep things smooth.</p>
+      </article>
+    </section>
+
+    <section class="container latest">
+      <h2>Latest Jobs</h2>
+      <div class="grid jobs-grid">
+        <article class="job-card">
+          <h3>Frontend Developer</h3>
+          <p class="meta">BOUMERDESS ·Full-time · 53000DA/Month.</p>
+          <p class="desc">Work on modern React applications, collaborate with product and design teams.</p>
+          <div class="job-actions">
+            <a class="btn" href="jobs.html">View more</a>
+          </div>
+        </article>
+        <article class="job-card">
+          <h3>Electrician</h3>
+          <p class="meta">BISKRA, ALGERIA ·2 Years Contract </p>
+          <p class="desc">Experienced electrician needed for residential installations.</p>
+          <div class="job-actions">
+            <a class="btn" href="jobs.html">View more</a>
+          </div>
+        </article>
+        <article class="job-card">
+          <h3>Graphic Designer</h3>
+          <p class="meta">BEJAIA · Net working · 3400DA/Day</p>
+          <p class="desc">Branding and marketing materials for fast-growing startup.</p>
+          <div class="job-actions">
+            <a class="btn" href="jobs.html">View more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  
+
+  <script>
+    // small nav toggle for mobile
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
