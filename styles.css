@@ -1,4 +1,3 @@
-/* styles.css - simple modern layout for Work Mercor demo */
 :root{
   --bg:#0f1724;
   --card:#071028;
@@ -23,7 +22,6 @@ body{
   line-height:1.45;
 }
 
-/* container */
 .container{
   width:90%;
   max-width:var(--container);
@@ -31,7 +29,6 @@ body{
   padding:2rem 0;
 }
 
-/* header */
 .site-header{
   background:transparent;
   position:sticky;
@@ -61,7 +58,6 @@ body{
 
 .nav-toggle{display:none;background:none;border:0;color:var(--text);font-size:1.2rem}
 
-/* hero */
 .hero{
   padding:4rem 0;
   display:flex;
@@ -73,11 +69,9 @@ body{
 .lead{color:var(--muted);margin-bottom:1rem}
 .hero-actions .btn{margin-right:.5rem}
 
-/* features */
 .features{display:flex;gap:1rem;justify-content:space-between;margin-top:1.5rem}
 .feature{background:var(--glass);padding:1rem;border-radius:12px;flex:1;text-align:center}
 
-/* grids */
 .grid{display:grid;gap:1rem}
 .jobs-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .workers-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
@@ -93,14 +87,12 @@ body{
 .desc{color:var(--text);font-size:.95rem;margin-bottom:.7rem}
 .job-actions{display:flex;gap:.5rem}
 
-/* profile avatar */
 .avatar{
   width:48px;height:48px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#34d399);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042018;margin-bottom:.6rem}
 
-/* forms */
 .narrow{max-width:720px}
 .form-card{
-  background:#2e497cbe;   /* NEW COLOR */
+  background:#2e497cbe;   
   padding:1rem;
   border-radius:12px;
   border:1px solid rgba(255,255,255,0.06);
@@ -111,12 +103,10 @@ body{
 }
 .form-actions{display:flex;gap:.5rem;justify-content:flex-end;margin-top:.5rem}
 
-/* footer */
 .site-footer{border-top:1px solid rgba(255,255,255,0.03);padding:1.2rem 0;margin-top:2rem}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;color:var(--muted)}
 
 
-/* responsiveness */
 @media (max-width:800px){
   .features{flex-direction:column}
   .nav-toggle{display:block}
